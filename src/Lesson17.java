@@ -1,6 +1,7 @@
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
+import java.lang.Math;
 
 public class Lesson17
 {
@@ -30,17 +31,23 @@ public class Lesson17
             for (char c : chars)
             {
                 uniqueChars.add(c);
+
             }
             System.out.println(uniqueChars.size());
-            if (i>3)
+
+            if (n>3)
             {
                 System.out.println("Ответ: " + strings[0]);
+
+                break;
             }
-//            else ()
-//            {
-//
-//            }
+            int size = uniqueChars.size();
+            System.out.println("!!!!!" + size);
+
+
+
         }
+
 
 
 
